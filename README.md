@@ -2,8 +2,9 @@
 
 ## 📚 Citation
 
-This reporitory simplifies using Leipzig Corpora via SQL. To learn more about [Leipzig Corpora Collection](https://cls.corpora.uni-leipzig.de/en):
+This reporitory simplifies using Leipzig Corpora via SQL. To learn more about [Leipzig Corpora Collection](https://corpora.wortschatz-leipzig.de/en?corpusId=eng_news_2020):
 * [Goldhahn, Dirk, Thomas Eckart, and Uwe Quasthoff. "Building large monolingual dictionaries at the leipzig corpora collection: From 100 to 200 languages." LREC. Vol. 29. 2012.](http://www.lrec-conf.org/proceedings/lrec2012/pdf/327_Paper.pdf)
+* Eckart, T., Quasthoff, U. (2013). Statistical Corpus and Language Comparison on Comparable Corpora. In: Sharoff, S., Rapp, R., Zweigenbaum, P., Fung, P. (eds) Building and Using Comparable Corpora. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-642-20128-8_8
 
 ---
 
