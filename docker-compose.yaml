@@ -1,0 +1,40 @@
+services:
+  db:
+    image: mysql:latest
+    container_name: leipzig-corpora-mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 1111
+    command: --local-infile=1
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./corpora:/corpora
+      - ./my.cnf:/root/.my.cnf
+    networks:
+      - leipzig-corpora-net
+
+  dbgate:
+    image: dbgate/dbgate
+    container_name: leipzig-corpora-dbgate
+    restart: always
+    ports:
+      - "3000:3000"
+    networks:
+      - leipzig-corpora-net
+
+
+  init:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - db
+    volumes:
+      - ./corpora:/corpora
+    networks:
+      - leipzig-corpora-net
+
+networks:
+  leipzig-corpora-net:
+    driver: bridge
