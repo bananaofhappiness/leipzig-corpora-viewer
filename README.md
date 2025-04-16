@@ -2,7 +2,7 @@
 
 ## 📚 Citation
 
-If you use this corpus in your work, please cite the following:
+This reporitory simplifies using Leipzig Corpora via SQL. To learn more about [Leipzig Corpora Collection](https://cls.corpora.uni-leipzig.de/en):
 * [Goldhahn, Dirk, Thomas Eckart, and Uwe Quasthoff. "Building large monolingual dictionaries at the leipzig corpora collection: From 100 to 200 languages." LREC. Vol. 29. 2012.](http://www.lrec-conf.org/proceedings/lrec2012/pdf/327_Paper.pdf)
 
 ---
