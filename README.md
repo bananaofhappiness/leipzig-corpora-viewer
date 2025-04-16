@@ -34,6 +34,10 @@ This project provides an easy way to set up and manage Leipzig corpora using Doc
     
 * Wait for the script to finish — this will build and start the Docker containers.
 
+* Now you can close the PowerShell (this will stop a container).
+
+* Open Docker Desktop, navigate to the `Containers` tab and lauch container named `leipzig-corpora-viewer`.
+
 🐧 For Linux and macOS Users:
 * Open a terminal and navigate to the folder where you’ve unpacked the ZIP.
 * Run the following command to build and start the containers:
