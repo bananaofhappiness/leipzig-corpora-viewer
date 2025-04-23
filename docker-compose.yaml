@@ -29,7 +29,7 @@ services:
       context: .
       dockerfile: Dockerfile
     depends_on:
-      - db
+      - mysql
     volumes:
       - ./corpora:/corpora
     networks:
