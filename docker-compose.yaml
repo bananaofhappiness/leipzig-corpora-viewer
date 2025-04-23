@@ -1,5 +1,5 @@
 services:
-  db:
+  mysql:
     image: mysql:latest
     container_name: leipzig-corpora-mysql
     restart: always
