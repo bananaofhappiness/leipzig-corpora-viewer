@@ -3,7 +3,7 @@
 # Config
 MYSQL_USER=root
 MYSQL_PASSWORD=1111
-MYSQL_HOST=db
+MYSQL_HOST=mysql
 CONTAINER_NAME=leipzig-corpora-mysql
 
 # Tables
