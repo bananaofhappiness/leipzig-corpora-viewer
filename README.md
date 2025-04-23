@@ -60,7 +60,7 @@ To set up a connection to the MySQL database:
 * Click on the "Connections" tab.
 * Click a plus button.
 * Select `MySQL` as connection type.
-* In the `Server` field either db, dockerhost, or leipzig-corpora-mysql will work (though the last one is more verbose and hence is more preferable).
+* In the `Server` field either mysql, dockerhost, or leipzig-corpora-mysql will work (though the last one is more verbose and hence is more preferable).
 * For `Username`, use root.
 * For `Password`, use 1111.
 * Select MySQL as the connection type and click Save.
